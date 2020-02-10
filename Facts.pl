@@ -1,6 +1,6 @@
-loves(romeo,juliet).
+loves(romeo,juliet). %loves is the predicate
 
-loves(juliet,romeo) :- loves(romer,juliet).
+loves(juliet,romeo) :- loves(romeo,juliet).
 
 male(bob).
 male(ben).
@@ -17,3 +17,5 @@ happy(bill).
 with_albert(alice).
 
 runs(albert) :- happy(albert) , with_albert(alice).
+
+sunny.
